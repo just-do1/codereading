@@ -393,7 +393,7 @@ func (s Service) RenderServiceToApplicationComponent(tm template.Manager, servic
 - 终点：Deployment, Service
 - 路径：
   - application_controller
-  - applicationconfiguration_controller
+  - applicationconfiguration controller
 
 
 
@@ -419,6 +419,8 @@ default     test   24h
 
 
 ### 3.2 ApplicationConfiguration 和  Component
+
+当 application controller 获取到 Application 资源对象之后，会根据其内容创建出对应的 ApplicationConfiguration 和 Component。
 
 ```shell
 # 获取 ApplicationConfiguration 和 Component
