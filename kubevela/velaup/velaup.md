@@ -214,13 +214,13 @@ Name: test
 CreateTime: 0001-01-01 00:00:00 +0000 UTC
 UpdateTime: 0001-01-01 00:00:00 +0000 UTC
 Services： map[
-						nginx: map[
-							env: [map[name: NAME value: kubevela]] 
-							image: nginx 
-							svc: map[ports: [map[nodePort: 32017 port: 80]] type: NodePort] 
-							type: webservice
-						]
-					]
+             nginx: map[
+               env: [map[name: NAME value: kubevela]] 
+               image: nginx 
+               svc: map[ports: [map[nodePort: 32017 port: 80]] type: NodePort] 
+               type: webservice
+            ]
+          ]
 Secrets    map[]
 configGetter: 0x447abd0 
 initialized: false
