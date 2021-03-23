@@ -30,6 +30,8 @@ services:
 
 
 
+利用 `vela up` 命令可以完成部署。
+
 
 
 ## 1. vela up 命令
